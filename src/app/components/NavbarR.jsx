@@ -5,15 +5,7 @@ import WalletHunter from './WalletHunterLogo';
 
 export default function NavbarR() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-  
-  const menuItems = [
-    "About us",
-    "Our services",
-    "FAQ",
-    "Pricing",
-    "Brands",
-    "Contact Us"
-  ]
+
 
 
   return (
