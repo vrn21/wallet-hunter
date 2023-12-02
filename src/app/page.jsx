@@ -1,9 +1,11 @@
-import NavbarR from './components/NavbarR'
+import HeroSection from "./components/HeroSection";
+import NavbarR from "./components/NavbarR";
 
 export default function Home() {
   return (
-    <div className="">
+    <div>
       <NavbarR />
+      <HeroSection />
     </div>
     )
 }

@@ -17,8 +17,7 @@ export default function NavbarR() {
 
 
   return (
-    <div className=' rounded-lg mt-5px'>
-      <Navbar isBordered isBlurred={true} isMenuOpen={isMenuOpen}  onMenuOpenChange={setIsMenuOpen} className='rounded-lg m-5px'>
+      <Navbar isBordered isBlurred={true} isMenuOpen={isMenuOpen}  onMenuOpenChange={setIsMenuOpen}  className='rounded-lg bg-purple-700 mt-2  text-white justify-between items-end' >
           <NavbarContent>
             <NavbarMenuToggle
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -29,30 +28,38 @@ export default function NavbarR() {
               <WalletHunter />
             </NavbarBrand>
           <NavbarContent />
-          <NavbarContent className="hidden sm:flex gap-4" justify="center">
+          <NavbarContent className="hidden sm:flex gap-6 text-md text-white pr-5" justify="center">
           <NavbarItem>
-            <Link color="foreground" href="#About us">
+            <Link color="foreground" href="#About us" className='text-white'>
               About Us
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link color="foreground" href="#services" aria-current="page">
+            <Link color="foreground" href="#services" aria-current="page"className='text-white'>
               Our services
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link color="foreground" href="#">
-              Integrations
+            <Link color="foreground" href="#" className='text-white'>
+              FAQ
+            </Link>
+          </NavbarItem>
+          <NavbarItem>
+            <Link color="foreground" href="#pricing" className='text-white'>
+              Pricing
+            </Link>
+          </NavbarItem>
+          <NavbarItem>
+            <Link color="foreground" href="#brands" className='text-white'>
+              Brands
+            </Link>
+          </NavbarItem>
+          <NavbarItem>
+            <Link color='primary' href="#contact"className='text-blue-100'>
+              Contact Us
             </Link>
           </NavbarItem>
         </NavbarContent>
-        <NavbarContent justify="end">
-          <NavbarItem className="hidden lg:flex">
-            <Link href="#">Login</Link>
-          </NavbarItem>
-      </NavbarContent>
       </Navbar>
-
-    </div>
   )
 }

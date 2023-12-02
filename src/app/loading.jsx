@@ -2,6 +2,7 @@ import React from 'react'
 
 export default function loading() {
   return (
-    <div>loading</div>
+    <div className='font-yellow
+    '>loading</div>
   )
 }
