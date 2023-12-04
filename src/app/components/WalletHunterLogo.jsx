@@ -3,7 +3,7 @@ import {Image} from "@nextui-org/react";
 
 export default function WalletHunter() {
   return (
-    <div className=''>
+    <div>
         <Image 
           src="/logo.png"
           alt="Wallet Hunter logo"

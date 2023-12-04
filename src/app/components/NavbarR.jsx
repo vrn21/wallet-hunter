@@ -9,14 +9,15 @@ export default function NavbarR() {
 
 
   return (
-      <Navbar isBordered isBlurred={true} isMenuOpen={isMenuOpen}  onMenuOpenChange={setIsMenuOpen}  className='rounded-lg bg-purple-700 mt-2  text-white justify-between items-end' >
+    <div className='flex justify-center'>
+      <Navbar isBordered isBlurred={true} isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen} shouldHideOnScroll className='rounded-lg bg-purple-700 mt-3  text-white justify-between items-end w-[60%]' >
           <NavbarContent>
             <NavbarMenuToggle
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
             className="sm:hidden"
              />
           </NavbarContent>
-            <NavbarBrand>
+            <NavbarBrand >
               <WalletHunter />
             </NavbarBrand>
           <NavbarContent />
@@ -53,5 +54,6 @@ export default function NavbarR() {
           </NavbarItem>
         </NavbarContent>
       </Navbar>
+      </div>
   )
 }

@@ -6,6 +6,7 @@
   --foreground-rgb: 255, 255, 255;
   --background-start-rgb: 0, 0, 0;
   --background-end-rgb: 0, 0, 0;
+  scroll-behavior: smooth;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,10 +21,8 @@ body {
   display: flex;    
   justify-content: center;
   color: rgb(var(--foreground-rgb));
-  background: 
-    linear-gradient(
-      to bottom,
-      #000000, #000000);
-
-
-    }
+  /* background: url('/bg.png'); */
+    
+  background-size: cover;
+  background-position: center;
+}
