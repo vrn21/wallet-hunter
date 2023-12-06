@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 export default function Transition() {
     const styles = {
         background:"url('/bg3.png')"

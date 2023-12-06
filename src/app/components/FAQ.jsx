@@ -16,7 +16,7 @@
         <div className='flex flex-row justify-between w-full h-[100vh] ml-10 pt-[20vh]'>
           <h1 className='text-8xl font-bold pt-5 items-center'>Frequently <br/>Asked<br/> Questions?</h1>
           <div className='flex flex-col w-[500px] mr-[100px] w-7xl rounded-3xl'>
-            <div className='flex-row justify-center'>
+            <div className='flex-row justify-center '>
               <Accordion className=' pt-5 pb-5 pl-5'>
                 <AccordionSummary
                   expandIcon={<ExpandMoreIcon />}

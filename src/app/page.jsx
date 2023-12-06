@@ -1,7 +1,9 @@
 import AboutUs from "./components/AboutUs";
+import Brands from "./components/Brands";
 import FAQ from "./components/FAQ";
 import HeroSection from "./components/HeroSection";
 import NavbarR from "./components/NavbarR";
+import Pricing from "./components/Pricing";
 import Services from "./components/Services";
 import Success from "./components/Success";
 import Team from "./components/Team";
@@ -9,7 +11,7 @@ import Transition from "./components/Transition";
 
 export default function Home() {
   return (
-    <div className="flex flex-col justify-center">
+    <div className="flex flex-col justify-center overflow-x-hidden">
       <NavbarR />
       <HeroSection />
       <AboutUs />
@@ -18,6 +20,8 @@ export default function Home() {
       <Success />
       <FAQ />
       <Team />
+      <Pricing />
+      <Brands />
 
     </div>
     )

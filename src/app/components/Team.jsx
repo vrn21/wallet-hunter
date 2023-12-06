@@ -27,7 +27,7 @@ export default function Team() {
         
   return (
     <div className='w-[100vw] h-[100vh] flex flex-row justify-center items-center '>
-        <div className=' bg-purple-950 w-[80%] h-[80%] rounded-xl p-5'>
+        <div className=' bg-purple-950 w-[80%] h-[82%] rounded-xl p-5 pb-10 '>
         <h1 className='text-9xl font-bold mb-5 text-center'>Our Team</h1>
         <div className='flex flex-row justify-around '>
             {team.map((member) => (
