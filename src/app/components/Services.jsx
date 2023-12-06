@@ -65,7 +65,7 @@ export default function Services() {
             <CheckboxGroup
                 label=""
                 size='xl'
-                value={selected}
+                defaultValue={["1","2","3","4","5","6","7","8"]}
                 className='font-bold text-white'
                 >
                 <Checkbox value="1" >Building Web 3.0 Community</Checkbox>

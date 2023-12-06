@@ -4,6 +4,7 @@ import HeroSection from "./components/HeroSection";
 import NavbarR from "./components/NavbarR";
 import Services from "./components/Services";
 import Success from "./components/Success";
+import Team from "./components/Team";
 import Transition from "./components/Transition";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Services />
       <Success />
       <FAQ />
+      <Team />
 
     </div>
     )
