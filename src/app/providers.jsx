@@ -7,7 +7,7 @@ function App() {
   // 2. Wrap NextUIProvider at the root of your app
   return (
     <NextUIProvider>
-      <YourApplication />
+      {children}
     </NextUIProvider>
   );
 }
