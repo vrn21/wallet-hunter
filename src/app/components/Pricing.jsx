@@ -41,9 +41,7 @@ export default function Pricing() {
             <div className='p-1'>{
                     premium.map((item) =>{
                         return(
-                            <div className='flex flex-row p-2'> 
-
-
+                            <div className='flex flex-row p-2' key={item}> 
                             <Checkbox  className='text-bold max-w-[300px] p-1 !text-white' size='lg' defaultSelected color="default"></Checkbox >
                             <h1>{item}</h1>
                             </div>
@@ -61,7 +59,7 @@ export default function Pricing() {
             <div className='p-1'>{
                     elite.map((item) =>{
                         return(
-                            <div className='flex flex-row p-2'> 
+                            <div className='flex flex-row p-2' key={item}> 
 
 
                             <Checkbox  className='text-bold max-w-[300px] p-1 !text-white' size='lg' defaultSelected color="default"></Checkbox >
@@ -83,7 +81,7 @@ export default function Pricing() {
             <div className='p-1'>{
                     ultimate.map((item) =>{
                         return(
-                            <div className='flex flex-row p-2'> 
+                            <div className='flex flex-row p-2' key={item}> 
 
 
                             <Checkbox className='text-bold max-w-[300px] p-1 !text-white' size='lg' defaultSelected color="default"></Checkbox >

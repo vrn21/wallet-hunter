@@ -29,7 +29,7 @@
 import React from "react";
 import {CircularProgress} from "@nextui-org/react";
 
-export default function App() {
+export default function Home() {
   const [value, setValue] = React.useState(0);
 
   React.useEffect(() => {

@@ -43,7 +43,7 @@ export default function Brands() {
                 className='w-full h-[140px] bg-slate-900 pt-5 pb-5'
             >
                 {logolinks.map((link, index) => (
-                    <Image key={index} className='h-[100px] inline whitespace-nowrap justify-center' src={link} height={100} width={300} />
+                    <Image key={index} className='h-[100px] inline whitespace-nowrap justify-center' alt='logos' src={link} height={100} width={300} />
                 ))}
             </AutoPlaySwipeableViews>
         </div>

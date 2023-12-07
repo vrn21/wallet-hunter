@@ -8,7 +8,7 @@ export default function WalletHunter(props) {
         <Image 
           src="/logo.png"
           alt="Wallet Hunter logo"
-          height={10}
+          height={100}
         />
     </div>
   )

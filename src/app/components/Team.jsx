@@ -31,8 +31,8 @@ export default function Team() {
         <h1 className='text-9xl font-bold mb-5 text-center'>Our Team</h1>
         <div className='flex flex-row justify-around '>
             {team.map((member) => (
-                <div className='ml-5 bg-slate-300 rounded-3xl p-3'>
-                <Image src={member.img} width={300} onClick={() => window.open(member.link)} />
+                <div key={member.img} className='ml-5 bg-slate-300 rounded-3xl p-3'>
+                <Image alt='pfps' src={member.img} width={300} onClick={() => window.open(member.link)} />
                 <div className='flex flex-col items-center'>
                     <h1 className=' text-black text-5xl font-bold' >{member.name}</h1>
                     <h3 className=' text-slate-600 text-xl'>{member.role}</h3>
