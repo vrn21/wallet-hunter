@@ -1,6 +1,7 @@
 import AboutUs from "./components/AboutUs";
 import Brands from "./components/Brands";
 import FAQ from "./components/FAQ";
+import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import NavbarR from "./components/NavbarR";
 import Pricing from "./components/Pricing";
@@ -22,6 +23,7 @@ export default function Home() {
       <Team />
       <Pricing />
       <Brands />
+      <Footer />
 
     </div>
     )

@@ -29,7 +29,7 @@ export default function Brands() {
     useEffect(() => {
         const interval = setInterval(() => {
             setActiveIndex((prevIndex) => (prevIndex + 1) % logolinks.length);
-        }, 200); 
+        }, 1000); 
 
         return () => clearInterval(interval);
     }, [logolinks.length]);
